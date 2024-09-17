@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+#MeuId{
+    background-color: darkmagenta;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    font-size: 30px;
+}
+.MinhaClasse{
+    background-color: rgb(35, 29, 113);
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    font-size: 20px;
+}
+
+.MinhaClasse .div3{
+    color: red;
+}
+
+div{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    font-size: 10px;
+}
+div>p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+p.div3{
+    color: black;
+    font-size: 20px;
+}
+
+#mt{
+   margin-top: 50px; 
+}
+#mb{
+    margin-bottom: 25px;
+}
+#ml{
+    margin-left: 100px;
+}
+#mr{
+    margin-right: 100px;
+}
+#all{
+    margin: 100px,50px,100px,50px;
+}
